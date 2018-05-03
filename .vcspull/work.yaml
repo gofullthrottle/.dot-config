@@ -50,41 +50,85 @@
     repo: 'git+https://github.com/janpaepke/ScrollMagic.git'
     remotes:
       develtech: 'git+ssh://git@github.com/develtech/ScrollMagic.git'
-
-
+  social-share-kit:
+    repo: 'git+https://github.com/darklow/social-share-kit.git'
+    remotes:
+      develtech: 'git+ssh://git@github.com/develtech/social-share-kit.git'
 
 ~/work/python:
 
+  pytest-django:
+    repo: 'git+https://github.com/pytest-dev/pytest-django.git'
+    remotes:
+      develtech: 'git+ssh://git@github.com/develtech/pytest-django.git'
+
+
+  django-robots:
+    repo: 'git+https://github.com/jazzband/django-robots.git'
+    remotes:
+      develtech: 'git+ssh://git@github.com/develtech/django-robots.git'
+
+  django-model-utils:
+    repo: 'git+https://github.com/jazzband/django-model-utils.git'
+    remotes:
+      develtech: 'git+ssh://git@github.com/develtech/django-model-utils.git'
+
+  django-polymorphic-tree:
+    repo: 'git+https://github.com/django-polymorphic/django-polymorphic-tree.git'
+    remotes:
+      develtech: 'git+ssh://git@github.com/develtech/django-polymorphic-tree.git'
+
+  django-polymorphic:
+    repo: 'git+https://github.com/django-polymorphic/django-polymorphic.git'
+    remotes:
+      develtech: 'git+ssh://git@github.com/develtech/django-polymorphic.git'
+
+  django-mptt:
+    repo: 'git+https://github.com/django-mptt/django-mptt.git'
+    remotes:
+      develtech: 'git+ssh://git@github.com/develtech/django-mptt.git'
+
+  django-slugify-processor:
+    repo: 'git+https://github.com/develtech/django-slugify-processor.git'
+  fabtools:
+    repo: 'git+https://github.com/fabtools/fabtools.git'
+    remotes:
+      develtech: 'git+ssh://git@github.com/develtech/fabtools.git'
+      ssteinerx: 'git+ssh://git@github.com/ssteinerx/fabtools.git'
   profiling:
     repo: 'git+https://github.com/what-studio/profiling.git'
     remotes:
       tony: 'git+ssh://git@github.com/tony/profiling.git'
-
-  vcspull:
-    repo: 'git+https://github.com/tony/vcspull.git'
-    remotes:
-      tony: 'git+ssh://git@github.com/tony/vcspull.git'
 
   alagitpull:
     repo: 'git+https://github.com/git-pull/alagitpull.git'
     remotes:
       tony: 'git+ssh://git@github.com/git-pull/alagitpull.git'
 
+  dotkeeper:
+    repo: 'git+https://github.com/dotkeeper/dotkeeper.git'
+    remotes:
+      tony: 'git+ssh://git@github.com/dotkeeper/dotkeeper.git'
+
   libvcs:
-    repo: 'git+https://github.com/tony/libvcs.git'
+    repo: 'git+https://github.com/vcs-python/libvcs.git'
     remotes:
       tony: 'git+ssh://git@github.com/tony/libvcs.git'
 
-  tmuxp:
-    repo: 'git+https://github.com/tony/tmuxp.git'
+  vcspull:
+    repo: 'git+https://github.com/vcs-python/vcspull.git'
     remotes:
-      tony: 'git+ssh://git@github.com/tony/tmuxp.git'
-
+      tony: 'git+ssh://git@github.com/tony/vcspull.git'
 
   libtmux:
-    repo: 'git+https://github.com/tony/libtmux.git'
+    repo: 'git+https://github.com/tmux-python/libtmux.git'
     remotes:
       tony: 'git+ssh://git@github.com/tony/libtmux.git'
+
+  tmuxp:
+    repo: 'git+https://github.com/tmux-python/tmuxp.git'
+    remotes:
+      tony: 'git+ssh://git@github.com/tony/tmuxp.git'
 
   cookiecutter-flask-pythonic:
     repo: 'git+https://github.com/tony/cookiecutter-flask-pythonic.git'
@@ -109,6 +153,7 @@
     repo: 'git+https://github.com/sphinx-doc/sphinx.git'
     remotes:
       tony: 'git+ssh://git@github.com/tony/sphinx.git'
+      develtech: 'git+ssh://git@github.com/develtech/sphinx.git'
   sphinx-testing:
     repo: 'git+https://github.com/sphinx-doc/sphinx-testing.git'
     remotes:

@@ -352,6 +352,8 @@
   codemirror: 'git+https://github.com/marijnh/CodeMirror.git'
   doctorjs: 'git+https://github.com/mozilla/doctorjs.git'
 ~/study/python:
+  spacy: 'git+https://github.com/explosion/spaCy'
+  nltk: 'git+https://github.com/nltk/nltk.git'
   grako: 'hg+https://bitbucket.org/apalala/grako'
   cffi: 'hg+https://bitbucket.org/cffi/cffi'
   kaa:
@@ -495,7 +497,10 @@
 
   pystache: 'git+https://github.com/defunkt/pystache.git'
   pandas: 'git+https://github.com/pydata/pandas'
-  numpy: 'git+https://github.com/numpy/numpy.git'
+  numpy:
+    repo: 'git+https://github.com/numpy/numpy.git'
+    remotes:
+      tony: 'git+https://github.com/tony/numpy.git'
   pytables: 'git+https://github.com/PyTables/PyTables.git'
 
   ncmpy: 'git+https://github.com/cykerway/ncmpy.git'
@@ -555,6 +560,7 @@
     repo: 'git+https://github.com/rtfd/readthedocs.org.git'
     remotes:
       tony: 'git+ssh://git@github.com/tony/readthedocs.org.git'
+      develtech: 'git+ssh://git@github.com/develtech/readthedocs.org.git'
 
   klaus:
     repo: 'git+https://github.com/jonashaag/klaus.git'
@@ -645,6 +651,9 @@
   pyenv-virtualenvwrapper: 'git+https://github.com/yyuu/pyenv-virtualenvwrapper.git'
   pyenv-installer: 'git+https://github.com/yyuu/pyenv-installer.git'
 ~/study/django:
+  django-storages:
+    repo: 'git+https://github.com/jschneier/django-storages.git'
+
   django-activeurl:
     repo: 'git+https://github.com/hellysmile/django-activeurl.git'
     remotes:
@@ -680,7 +689,10 @@
     remotes:
       tony: 'git+https://github.com/tony/django-treebeard'
 
-  django-filter: 'git+https://github.com/alex/django-filter.git'
+  django-filter: 
+    repo: 'git+https://github.com/carltongibson/django-filter.git'
+    remotes:
+      develtech: 'git+https://github.com/develtech/django-filter.git'
   django-extensions: 
     repo: 'git+https://github.com/django-extensions/django-extensions.git'
     remotes:

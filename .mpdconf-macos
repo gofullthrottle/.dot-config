@@ -58,16 +58,16 @@ audio_output {
 #        name    "alsa MPD"
 # }
 
-# audio_output {
-#   type            "osx"
-#   name            "CoreAudio"
-#   mixer_type      "software"
-# }
-
 audio_output {
-   type    "pulse"
-   name    "My MPD PulseAudio Output"
+  type            "osx"
+  name            "CoreAudio"
+  mixer_type      "software"
 }
+
+# audio_output {
+#    type    "pulse"
+#    name    "My MPD PulseAudio Output"
+# }
 # audio_output {
 # 	type            "osx"
 # 	name            "My Mac Device"
